@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" url="http://java.sun.com/jsp/jstlcore" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstlcore" %>
 
 <!DOCTYPE html>
 <html lang="ko">
