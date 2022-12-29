@@ -11,7 +11,7 @@ public class WebApplicationServer {
     private static final Logger log = LoggerFactory.getLogger(WebApplicationServer.class);
 
     public static void main(String[] args) throws LifecycleException {
-        String webappDirLocation = "C:\\Users\\lee31\\IdeaProjects\\mvc-practice\\webapps/";
+        String webappDirLocation = "webapps/";
         Tomcat tomcat = new Tomcat();
         tomcat.setPort(8080);
 
