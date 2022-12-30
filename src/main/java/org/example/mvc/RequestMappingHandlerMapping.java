@@ -5,7 +5,7 @@ import org.example.mvc.controller.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RequestMappingHandlerMapping {
+public class RequestMappingHandlerMapping implements HandlerMapping {
     private Map<HandlerKey, Controller> mappings = new HashMap<>();
 
     void init() {
@@ -15,7 +15,8 @@ public class RequestMappingHandlerMapping {
         mappings.put(new HandlerKey(RequestMethod.GET, "/user/form"), new ForwardController("/user/form"));
     }
 
-    public Controller findHandler(HandlerKey urlPath) {
+    @Override
+    public Object findHandler(HandlerKey urlPath) {
         return mappings.get(urlPath);
     }
 }
