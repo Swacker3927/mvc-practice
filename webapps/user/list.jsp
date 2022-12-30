@@ -5,7 +5,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>home</title>
+    <title>list</title>
 </head>
 <body>
 
