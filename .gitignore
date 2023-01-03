@@ -27,6 +27,8 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
+tomcat.8080/
+
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
